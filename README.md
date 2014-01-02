@@ -18,8 +18,14 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+First you need a token, enter it:
+	
+	DiffbotApi::Session.token = "94be0d8208f085ad6207d949f183728c"
 
+And to fetch an article:
+	
+	DiffbotApi::Article.fetch(:url => "http://ruby.railstutorial.org/ruby-on-rails-tutorial-book")
+	
 ## Contributing
 
 1. Fork it
