@@ -6,7 +6,7 @@ TODO: Write a gem description
 
 Add this line to your application's Gemfile:
 
-    gem 'diffbot_api'
+    gem 'diffbot_api', git: 'git@github.com:mahmoud-abdelaziz/diffbot_api.git'
 
 And then execute:
 
